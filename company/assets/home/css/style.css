@@ -1,0 +1,243 @@
+/*
+888     888     d8888 8888888b.  8888888        d8888 888888b.   888      8888888888 .d8888b.  
+888     888    d88888 888   Y88b   888         d88888 888  "88b  888      888       d88P  Y88b 
+888     888   d88P888 888    888   888        d88P888 888  .88P  888      888       Y88b.      
+Y88b   d88P  d88P 888 888   d88P   888       d88P 888 8888888K.  888      8888888    "Y888b.   
+ Y88b d88P  d88P  888 8888888P"    888      d88P  888 888  "Y88b 888      888           "Y88b. 
+  Y88o88P  d88P   888 888 T88b     888     d88P   888 888    888 888      888             "888 
+   Y888P  d8888888888 888  T88b    888    d8888888888 888   d88P 888      888       Y88b  d88P 
+    Y8P  d88P     888 888   T88b 8888888 d88P     888 8888888P"  88888888 8888888888 "Y8888P"  
+*/
+:root {
+    --color: rgba(2, 174, 240, 1);
+}
+
+
+/*
+8888888b.  888     888 888888b.   888      8888888 .d8888b.  
+888   Y88b 888     888 888  "88b  888        888  d88P  Y88b 
+888    888 888     888 888  .88P  888        888  888    888 
+888   d88P 888     888 8888888K.  888        888  888        
+8888888P"  888     888 888  "Y88b 888        888  888        
+888        888     888 888    888 888        888  888    888 
+888        Y88b. .d88P 888   d88P 888        888  Y88b  d88P 
+888         "Y88888P"  8888888P"  88888888 8888888 "Y8888P"  
+*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden !important;
+}
+
+.home-cursor-pointer {
+    cursor: pointer;
+}
+
+.home-remove-color-from-container {
+    background: transparent !important;
+}
+
+
+/*
+888    888 8888888888        d8888 8888888b.  8888888888 8888888b.  
+888    888 888              d88888 888  "Y88b 888        888   Y88b 
+888    888 888             d88P888 888    888 888        888    888 
+8888888888 8888888        d88P 888 888    888 8888888    888   d88P 
+888    888 888           d88P  888 888    888 888        8888888P"  
+888    888 888          d88P   888 888    888 888        888 T88b   
+888    888 888         d8888888888 888  .d88P 888        888  T88b  
+888    888 8888888888 d88P     888 8888888P"  8888888888 888   T88b 
+*/
+.home-bg-header {
+    background-color: #000;
+}
+
+
+/*
+888888b.         d8888 888b    888 888b    888 8888888888 8888888b.  
+888  "88b       d88888 8888b   888 8888b   888 888        888   Y88b 
+888  .88P      d88P888 88888b  888 88888b  888 888        888    888 
+8888888K.     d88P 888 888Y88b 888 888Y88b 888 8888888    888   d88P 
+888  "Y88b   d88P  888 888 Y88b888 888 Y88b888 888        8888888P"  
+888    888  d88P   888 888  Y88888 888  Y88888 888        888 T88b   
+888   d88P d8888888888 888   Y8888 888   Y8888 888        888  T88b  
+8888888P" d88P     888 888    Y888 888    Y888 8888888888 888   T88b 
+*/
+.home-banner-top {
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home-alter-text-banner {
+    font-size: 4rem;
+}
+
+.home-text-border {
+    text-shadow: 2px 2px black;
+}
+
+.home-border-button {
+    box-shadow: 1px 1px 5px 0px #000000;
+}
+
+
+/*
+       d8888 8888888b.  8888888b.   .d88888b.  888       888  .d8888b.  
+      d88888 888   Y88b 888   Y88b d88P" "Y88b 888   o   888 d88P  Y88b 
+     d88P888 888    888 888    888 888     888 888  d8b  888 Y88b.      
+    d88P 888 888   d88P 888   d88P 888     888 888 d888b 888  "Y888b.   
+   d88P  888 8888888P"  8888888P"  888     888 888d88888b888     "Y88b. 
+  d88P   888 888 T88b   888 T88b   888     888 88888P Y88888       "888 
+ d8888888888 888  T88b  888  T88b  Y88b. .d88P 8888P   Y8888 Y88b  d88P 
+d88P     888 888   T88b 888   T88b  "Y88888P"  888P     Y888  "Y8888P"  
+*/
+.home-alter-arrows {
+	position: absolute;
+	top: 50%;
+	color: #000;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.home-alter-arrow-left {
+	left: 0 !important;
+}
+
+.home-alter-arrow-right {
+	right: 0 !important;
+}
+
+
+/*
+888888b.   888      .d88888b.   .d8888b.  
+888  "88b  888     d88P" "Y88b d88P  Y88b 
+888  .88P  888     888     888 888    888 
+8888888K.  888     888     888 888        
+888  "Y88b 888     888     888 888  88888 
+888    888 888     888     888 888    888 
+888   d88P 888     Y88b. .d88P Y88b  d88P 
+8888888P"  88888888 "Y88888P"   "Y8888P88 
+*/
+.home-min-height-image-blog {
+    height: 100% !important;
+}
+
+.home-effect-in-the-blog-container {
+    box-shadow: 1px 1px 8px 0px #000000;
+}
+
+.home-text-align {
+    text-align: justify;
+}
+
+.home-remove-border-from-post {
+    border: none !important;
+}
+
+.home-remove-hover-effect a:hover {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+.home-remove-link-decoration {
+    text-decoration: none !important;
+    color: #000;
+}
+
+.home-limit-character-length {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+
+/*
+ .d8888b.   .d88888b.  888b    888 88888888888     d8888  .d8888b. 88888888888 
+d88P  Y88b d88P" "Y88b 8888b   888     888        d88888 d88P  Y88b    888     
+888    888 888     888 88888b  888     888       d88P888 888    888    888     
+888        888     888 888Y88b 888     888      d88P 888 888           888     
+888        888     888 888 Y88b888     888     d88P  888 888           888     
+888    888 888     888 888  Y88888     888    d88P   888 888    888    888     
+Y88b  d88P Y88b. .d88P 888   Y8888     888   d8888888888 Y88b  d88P    888     
+ "Y8888P"   "Y88888P"  888    Y888     888  d88P     888  "Y8888P"     888  
+*/
+.home-bg-form {
+    background-color: rgba(32, 42, 56, 1);
+}
+
+.home-bg-input-form {
+    background-color: #2f3d50;
+    border: none !important;
+}
+
+.home-bg-input-form:focus {
+    background-color: #2f3d50;
+    border: none !important;
+}
+
+.home-button-send-form {
+    background-color: #46556a;
+}
+
+input, textarea {
+    color: #fff !important;
+}
+
+.home-image-form {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/*
+8888888888 .d88888b.   .d88888b. 88888888888 8888888888 8888888b.  
+888       d88P" "Y88b d88P" "Y88b    888     888        888   Y88b 
+888       888     888 888     888    888     888        888    888 
+8888888   888     888 888     888    888     8888888    888   d88P 
+888       888     888 888     888    888     888        8888888P"  
+888       888     888 888     888    888     888        888 T88b   
+888       Y88b. .d88P Y88b. .d88P    888     888        888  T88b  
+888        "Y88888P"   "Y88888P"     888     8888888888 888   T88b 
+*/
+.home-alter-bg-footer {
+    background-color: #000;
+}
+
+.home-alter-bg-list {
+    background: transparent !important;
+}
+
+.home-alter-width-from-network-icons {
+    width: 50px;
+}
+
+.home-line-footer {
+    background-color: #252a2c;
+    height: 2px;
+}
+
+
+/*
+ .d8888b.   .d88888b.  8888888b. Y88b   d88P 
+d88P  Y88b d88P" "Y88b 888   Y88b Y88b d88P  
+888    888 888     888 888    888  Y88o88P   
+888        888     888 888   d88P   Y888P    
+888        888     888 8888888P"     888     
+888    888 888     888 888           888     
+Y88b  d88P Y88b. .d88P 888           888     
+ "Y8888P"   "Y88888P"  888           888  
+*/
+.home-remove-text-decoration {
+    text-decoration: none !important;
+}

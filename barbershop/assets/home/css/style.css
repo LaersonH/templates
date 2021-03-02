@@ -1,0 +1,356 @@
+/* PUBLIC */
+
+/* ABOUT */
+/* ARROWS */
+/* BANNER */
+/* BLOG */
+/* CONTACT */
+/* COPY */
+/* FOOTER */
+/* HEADER */
+/* SERVICES */
+
+
+/*
+8888888b.  888     888 888888b.   888      8888888 .d8888b.  
+888   Y88b 888     888 888  "88b  888        888  d88P  Y88b 
+888    888 888     888 888  .88P  888        888  888    888 
+888   d88P 888     888 8888888K.  888        888  888        
+8888888P"  888     888 888  "Y88b 888        888  888        
+888        888     888 888    888 888        888  888    888 
+888        Y88b. .d88P 888   d88P 888        888  Y88b  d88P 
+888         "Y88888P"  8888888P"  88888888 8888888 "Y8888P"  
+*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden !important;
+}
+
+.home-cursor-pointer {
+    cursor: pointer;
+}
+
+.home-remove-color-from-container {
+    background: transparent !important;
+}
+
+
+/*
+       d8888 888888b.    .d88888b.  888     888 88888888888 
+      d88888 888  "88b  d88P" "Y88b 888     888     888     
+     d88P888 888  .88P  888     888 888     888     888     
+    d88P 888 8888888K.  888     888 888     888     888     
+   d88P  888 888  "Y88b 888     888 888     888     888     
+  d88P   888 888    888 888     888 888     888     888     
+ d8888888888 888   d88P Y88b. .d88P Y88b. .d88P     888     
+d88P     888 8888888P"   "Y88888P"   "Y88888P"      888
+*/
+.home-width-icon-from-about {
+    width: 150px;
+}
+
+.home-alter-about-title {
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+/*
+       d8888 8888888b.  8888888b.   .d88888b.  888       888  .d8888b.  
+      d88888 888   Y88b 888   Y88b d88P" "Y88b 888   o   888 d88P  Y88b 
+     d88P888 888    888 888    888 888     888 888  d8b  888 Y88b.      
+    d88P 888 888   d88P 888   d88P 888     888 888 d888b 888  "Y888b.   
+   d88P  888 8888888P"  8888888P"  888     888 888d88888b888     "Y88b. 
+  d88P   888 888 T88b   888 T88b   888     888 88888P Y88888       "888 
+ d8888888888 888  T88b  888  T88b  Y88b. .d88P 8888P   Y8888 Y88b  d88P 
+d88P     888 888   T88b 888   T88b  "Y88888P"  888P     Y888  "Y8888P"  
+*/
+.home-alter-arrows {
+	position: absolute;
+	top: 50%;
+	color: #000;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.home-alter-arrow-left {
+	left: 0 !important;
+}
+
+.home-alter-arrow-right {
+	right: 0 !important;
+}
+
+
+/*
+888888b.         d8888 888b    888 888b    888 8888888888 8888888b.  
+888  "88b       d88888 8888b   888 8888b   888 888        888   Y88b 
+888  .88P      d88P888 88888b  888 88888b  888 888        888    888 
+8888888K.     d88P 888 888Y88b 888 888Y88b 888 8888888    888   d88P 
+888  "Y88b   d88P  888 888 Y88b888 888 Y88b888 888        8888888P"  
+888    888  d88P   888 888  Y88888 888  Y88888 888        888 T88b   
+888   d88P d8888888888 888   Y8888 888   Y8888 888        888  T88b  
+8888888P" d88P     888 888    Y888 888    Y888 8888888888 888   T88b 
+*/
+.home-banner-top {
+    background-image: linear-gradient(0deg, rgba(144, 137, 137, 0.3) 0%, rgba(0, 0, 0, 0.95) 90%), url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (max-width: 996px) {
+    .home-banner-top {
+        background-image: linear-gradient(0deg, rgba(144, 137, 137, 0.3) 0%, rgba(0, 0, 0, 0.95) 90%), url("../img/banner.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 140vh;
+    }   
+}
+
+.home-alter-text-banner {
+    font-size: 4rem;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.home-alter-second-text-banner {
+    font-size: 2rem;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.home-text-border {
+    text-shadow: 2px 2px black;
+}
+
+.home-icon-barber {
+    width: 100px;
+}
+
+.home-bg-blog {
+    background-image: linear-gradient(0deg, rgba(144, 137, 137, 0.3) 0%, rgba(0, 0, 0, 0.95) 90%), url("../img/footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*
+888888b.   888      .d88888b.   .d8888b.  
+888  "88b  888     d88P" "Y88b d88P  Y88b 
+888  .88P  888     888     888 888    888 
+8888888K.  888     888     888 888        
+888  "Y88b 888     888     888 888  88888 
+888    888 888     888     888 888    888 
+888   d88P 888     Y88b. .d88P Y88b  d88P 
+8888888P"  88888888 "Y88888P"   "Y8888P88 
+*/
+.home-min-height-image-blog {
+    height: 100% !important;
+}
+
+.home-effect-in-the-blog-container {
+    box-shadow: 1px 1px 8px 0px #000000;
+}
+
+.home-text-align {
+    text-align: justify;
+}
+
+.home-alter-blog-title {
+    font-family: 'Pattaya', sans-serif;
+}
+
+.home-remove-border-from-post {
+    border: none !important;
+}
+
+.home-remove-hover-effect a:hover {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+.home-remove-link-decoration {
+    text-decoration: none !important;
+    color: #000;
+}
+
+.home-limit-character-length {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.home-border-blog-image {
+    border: 2px solid rgba(0, 0, 0, 1);
+}
+
+.home-add-box-shadow-effect-in-the-post {
+    -webkit-box-shadow: 0px 4px 8px -2px rgba(0, 0, 0, 0.71); 
+    box-shadow: 0px 4px 8px -2px rgba(0, 0, 0, 0.71);
+}
+
+
+/*
+ .d8888b.   .d88888b.  888b    888 88888888888     d8888  .d8888b. 88888888888 
+d88P  Y88b d88P" "Y88b 8888b   888     888        d88888 d88P  Y88b    888     
+888    888 888     888 88888b  888     888       d88P888 888    888    888     
+888        888     888 888Y88b 888     888      d88P 888 888           888     
+888        888     888 888 Y88b888     888     d88P  888 888           888     
+888    888 888     888 888  Y88888     888    d88P   888 888    888    888     
+Y88b  d88P Y88b. .d88P 888   Y8888     888   d8888888888 Y88b  d88P    888     
+ "Y8888P"   "Y88888P"  888    Y888     888  d88P     888  "Y8888P"     888  
+*/
+.home-bg-input-form {
+    background: transparent !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #fff !important;
+    border-radius: 0 !important;
+}
+
+.home-bg-input-form:focus {
+    background: transparent !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #fff !important;
+    border-radius: 0 !important;
+}
+
+::-webkit-input-placeholder {
+    color: #fff !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #fff !important;
+}
+ 
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff !important;
+}
+ 
+:-ms-input-placeholder {  
+    color: #fff !important;
+}
+
+.home-button-send-form {
+    background-color: #000000;
+}
+
+input:focus, textarea {
+    color: #fff !important;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0 !important;
+    border: 0 none !important;
+    outline: 0 !important;
+}
+
+
+/*
+ .d8888b.   .d88888b.  8888888b. Y88b   d88P 
+d88P  Y88b d88P" "Y88b 888   Y88b Y88b d88P  
+888    888 888     888 888    888  Y88o88P   
+888        888     888 888   d88P   Y888P    
+888        888     888 8888888P"     888     
+888    888 888     888 888           888     
+Y88b  d88P Y88b. .d88P 888           888     
+ "Y8888P"   "Y88888P"  888           888  
+*/
+.home-remove-text-decoration {
+    text-decoration: none !important;
+}
+
+
+/*
+8888888888 .d88888b.   .d88888b. 88888888888 8888888888 8888888b.  
+888       d88P" "Y88b d88P" "Y88b    888     888        888   Y88b 
+888       888     888 888     888    888     888        888    888 
+8888888   888     888 888     888    888     8888888    888   d88P 
+888       888     888 888     888    888     888        8888888P"  
+888       888     888 888     888    888     888        888 T88b   
+888       Y88b. .d88P Y88b. .d88P    888     888        888  T88b  
+888        "Y88888P"   "Y88888P"     888     8888888888 888   T88b 
+*/
+.home-alter-bg-footer {
+    background-image: linear-gradient(0deg, rgba(144, 137, 137, 0.3) 0%, rgba(0, 0, 0, 0.95) 90%), url("../img/footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-alter-bg-list {
+    background: transparent !important;
+    border: none !important;
+}
+
+.home-alter-width-from-network-icons {
+    width: 50px;
+}
+
+.home-line-footer {
+    background-color: #252a2c;
+    height: 2px;
+}
+
+.home-bg-black {
+    background-color: #000000;
+}
+
+
+/*
+888    888 8888888888        d8888 8888888b.  8888888888 8888888b.  
+888    888 888              d88888 888  "Y88b 888        888   Y88b 
+888    888 888             d88P888 888    888 888        888    888 
+8888888888 8888888        d88P 888 888    888 8888888    888   d88P 
+888    888 888           d88P  888 888    888 888        8888888P"  
+888    888 888          d88P   888 888    888 888        888 T88b   
+888    888 888         d8888888888 888  .d88P 888        888  T88b  
+888    888 8888888888 d88P     888 8888888P"  8888888888 888   T88b 
+*/
+.home-bg-header {
+    background-color: #000;
+}
+
+.dropdown-item:focus {
+    background-color: #000 !important;
+}
+
+.dropdown-item:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+
+/*
+ .d8888b.  8888888888 8888888b.  888     888 8888888 .d8888b.  8888888888 .d8888b.  
+d88P  Y88b 888        888   Y88b 888     888   888  d88P  Y88b 888       d88P  Y88b 
+Y88b.      888        888    888 888     888   888  888    888 888       Y88b.      
+ "Y888b.   8888888    888   d88P Y88b   d88P   888  888        8888888    "Y888b.   
+    "Y88b. 888        8888888P"   Y88b d88P    888  888        888           "Y88b. 
+      "888 888        888 T88b     Y88o88P     888  888    888 888             "888 
+Y88b  d88P 888        888  T88b     Y888P      888  Y88b  d88P 888       Y88b  d88P 
+ "Y8888P"  8888888888 888   T88b     Y8P     8888888 "Y8888P"  8888888888 "Y8888P" 
+*/
+.home-alter-width-from-services-icons {
+    width: 100px;
+}
+
+.home-icon-border {
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.home-alter-service-title {
+    font-family: 'Pattaya', sans-serif;
+}
